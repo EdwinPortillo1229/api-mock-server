@@ -1,0 +1,61 @@
+{
+  "session_id": "sess_001",
+  "next_page_token": "",
+  "page_size": 50,
+  "sms_histories": [
+    {
+      "message_id": "msg_001_a",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_14",
+      "message": "Hi Jane, just following up on our meeting yesterday. Let me know if you have any questions about the portfolio.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15551234567", "display_name": "Jane Smith" }
+      ]
+    },
+    {
+      "message_id": "msg_001_b",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_13",
+      "message": "Thanks for reaching out! I did have a question about the retirement account options.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15551234567",
+        "display_name": "Jane Smith"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_001_c",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_12",
+      "message": "Of course! Would you like to schedule a call this week to discuss?",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15551234567", "display_name": "Jane Smith" }
+      ]
+    },
+    {
+      "message_id": "msg_001_d",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_11",
+      "message": "Thursday afternoon works best for me. Does 2pm work?",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15551234567",
+        "display_name": "Jane Smith"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    }
+  ]
+}

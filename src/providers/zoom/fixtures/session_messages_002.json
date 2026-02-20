@@ -1,0 +1,47 @@
+{
+  "session_id": "sess_002",
+  "next_page_token": "",
+  "page_size": 50,
+  "sms_histories": [
+    {
+      "message_id": "msg_002_a",
+      "date_time": "FIXTURE_DATE_DAY_2_TIME_9",
+      "message": "Good morning! I wanted to confirm our appointment for next Monday at 10am.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15559876543",
+        "display_name": "Bill Jones"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_002_b",
+      "date_time": "FIXTURE_DATE_DAY_2_TIME_8",
+      "message": "Yes, Monday at 10am is confirmed. I'll send over the documents beforehand.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15559876543", "display_name": "Bill Jones" }
+      ]
+    },
+    {
+      "message_id": "msg_002_c",
+      "date_time": "FIXTURE_DATE_DAY_2_TIME_7",
+      "message": "Perfect, thank you. Looking forward to reviewing the quarterly report.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15559876543",
+        "display_name": "Bill Jones"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    }
+  ]
+}

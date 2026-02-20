@@ -1,0 +1,90 @@
+{
+  "from": "FIXTURE_DATE_DAY_30",
+  "to": "FIXTURE_DATE_DAY_0",
+  "next_page_token": "kNz8aPQ4RsTuVw9XyZ1aBc",
+  "page_size": 30,
+  "sms_sessions": [
+    {
+      "session_id": "sess_001",
+      "session_type": "user",
+      "last_access_time": "FIXTURE_DATE_DAY_1_TIME_14",
+      "participants": [
+        {
+          "phone_number": "+11111111111",
+          "display_name": "FIXTURE_USER_NAME",
+          "owner": { "type": "user", "id": "FIXTURE_ZOOM_USER_ID" },
+          "is_session_owner": true
+        },
+        {
+          "phone_number": "+15551234567",
+          "display_name": "Jane Smith",
+          "owner": { "type": "external", "id": null },
+          "is_session_owner": false
+        }
+      ]
+    },
+    {
+      "session_id": "sess_002",
+      "session_type": "user",
+      "last_access_time": "FIXTURE_DATE_DAY_2_TIME_9",
+      "participants": [
+        {
+          "phone_number": "+11111111111",
+          "display_name": "FIXTURE_USER_NAME",
+          "owner": { "type": "user", "id": "FIXTURE_ZOOM_USER_ID" },
+          "is_session_owner": true
+        },
+        {
+          "phone_number": "+15559876543",
+          "display_name": "Bill Jones",
+          "owner": { "type": "external", "id": null },
+          "is_session_owner": false
+        }
+      ]
+    },
+    {
+      "session_id": "sess_003",
+      "session_type": "user",
+      "last_access_time": "FIXTURE_DATE_DAY_3_TIME_18",
+      "participants": [
+        {
+          "phone_number": "+11111111111",
+          "display_name": "FIXTURE_USER_NAME",
+          "owner": { "type": "user", "id": "FIXTURE_ZOOM_USER_ID" },
+          "is_session_owner": true
+        },
+        {
+          "phone_number": "+15553334444",
+          "display_name": "Amanda Jones",
+          "owner": { "type": "external", "id": null },
+          "is_session_owner": false
+        }
+      ]
+    },
+    {
+      "session_id": "sess_004",
+      "session_type": "user",
+      "last_access_time": "FIXTURE_DATE_DAY_4_TIME_11",
+      "participants": [
+        {
+          "phone_number": "+11111111111",
+          "display_name": "FIXTURE_USER_NAME",
+          "owner": { "type": "user", "id": "FIXTURE_ZOOM_USER_ID" },
+          "is_session_owner": true
+        },
+        {
+          "phone_number": "+15551112222",
+          "display_name": "Sarah Miller",
+          "owner": { "type": "external", "id": null },
+          "is_session_owner": false
+        },
+        {
+          "phone_number": "+15556667777",
+          "display_name": "Emily Davis",
+          "owner": { "type": "external", "id": null },
+          "is_session_owner": false
+        }
+      ]
+    }
+  ]
+}

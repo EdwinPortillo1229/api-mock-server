@@ -1,0 +1,12 @@
+services:
+  api-mock-server:
+    build: .
+    ports:
+      - "4010:4010"
+    volumes:
+      - ./src:/app/src
+    environment:
+      - PORT=4010
+      - NGROK_ENABLED=false
+      # - NGROK_AUTHTOKEN=your_token_here
+    command: npx tsx watch src/index.ts

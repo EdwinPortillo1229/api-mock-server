@@ -1,0 +1,46 @@
+{
+  "from": "FIXTURE_DATE_DAY_30",
+  "to": "FIXTURE_DATE_DAY_0",
+  "next_page_token": "",
+  "page_size": 30,
+  "sms_sessions": [
+    {
+      "session_id": "sess_005",
+      "session_type": "user",
+      "last_access_time": "FIXTURE_DATE_DAY_5_TIME_16",
+      "participants": [
+        {
+          "phone_number": "+11111111111",
+          "display_name": "FIXTURE_USER_NAME",
+          "owner": { "type": "user", "id": "FIXTURE_ZOOM_USER_ID" },
+          "is_session_owner": true
+        },
+        {
+          "phone_number": "+15558889999",
+          "display_name": "Michael Brown",
+          "owner": { "type": "external", "id": null },
+          "is_session_owner": false
+        }
+      ]
+    },
+    {
+      "session_id": "sess_006",
+      "session_type": "user",
+      "last_access_time": "FIXTURE_DATE_DAY_6_TIME_8",
+      "participants": [
+        {
+          "phone_number": "+11111111111",
+          "display_name": "FIXTURE_USER_NAME",
+          "owner": { "type": "user", "id": "FIXTURE_ZOOM_USER_ID" },
+          "is_session_owner": true
+        },
+        {
+          "phone_number": "+15554445555",
+          "display_name": "Robert Wilson",
+          "owner": { "type": "external", "id": null },
+          "is_session_owner": false
+        }
+      ]
+    }
+  ]
+}

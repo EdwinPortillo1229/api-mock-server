@@ -1,0 +1,50 @@
+{
+  "session_id": "sess_004",
+  "next_page_token": "",
+  "page_size": 50,
+  "sms_histories": [
+    {
+      "message_id": "msg_004_a",
+      "date_time": "FIXTURE_DATE_DAY_4_TIME_11",
+      "message": "Hi everyone, the team meeting has been moved to 3pm tomorrow. Please confirm attendance.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15551112222",
+        "display_name": "Sarah Miller"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" },
+        { "phone_number": "+15556667777", "display_name": "Emily Davis" }
+      ]
+    },
+    {
+      "message_id": "msg_004_b",
+      "date_time": "FIXTURE_DATE_DAY_4_TIME_10",
+      "message": "I can make it. I'll bring the updated client list.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15551112222", "display_name": "Sarah Miller" },
+        { "phone_number": "+15556667777", "display_name": "Emily Davis" }
+      ]
+    },
+    {
+      "message_id": "msg_004_c",
+      "date_time": "FIXTURE_DATE_DAY_4_TIME_9",
+      "message": "Confirmed. I have some updates on the compliance review to share.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15556667777",
+        "display_name": "Emily Davis"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" },
+        { "phone_number": "+15551112222", "display_name": "Sarah Miller" }
+      ]
+    }
+  ]
+}
