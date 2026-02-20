@@ -19,8 +19,8 @@ Ctrl+C stops the log tail; the server keeps running in the background until `bin
 The CRM's `ApiClient` reads `ENV["ZOOM_API_URL"]` (defaults to `https://api.zoom.us`). Point that at the mock server and zero CRM code changes are needed:
 
 ```
-ZOOM_API_URL=http://api-mock-server:4010    # Docker network
-ZOOM_API_URL=http://localhost:4010           # local access
+ZOOM_API_URL=http://host.docker.internal:4010   # from a Docker container (e.g. CRM)
+ZOOM_API_URL=http://localhost:4010               # from your host machine
 ```
 
 ### Placeholder System

@@ -10,9 +10,10 @@ export function printBanner(
   lines.push("");
   lines.push("Mock API Server running!");
   lines.push("");
-  lines.push(`  Local:   http://localhost:${port}`);
+  lines.push(`  Local:    http://localhost:${port}`);
+  lines.push(`  Docker:   http://host.docker.internal:${port}`);
   if (tunnelUrl) {
-    lines.push(`  Tunnel:  ${tunnelUrl}`);
+    lines.push(`  Tunnel:   ${tunnelUrl}`);
   }
 
   for (const provider of providers) {
