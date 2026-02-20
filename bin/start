@@ -1,4 +1,8 @@
 #!/bin/sh
 cd "$(dirname "$0")/.." || exit 1
+export PORT="${PORT:-4010}"
 docker compose up -d --build
+echo ""
+echo "Mock server running on port $PORT"
+echo ""
 docker compose logs -f

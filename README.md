@@ -7,11 +7,12 @@ Currently supports **Zoom Phone SMS** endpoints. Designed to be extended with an
 ## Quick Start
 
 ```sh
-bin/start   # builds, starts server, tails logs (Ctrl+C stops logs, server keeps running)
-bin/stop    # shuts down the server
+bin/start              # starts on default port 4010
+PORT=5050 bin/start    # starts on custom port
+bin/stop               # shuts down the server
 ```
 
-The server runs on **port 4010**.
+Ctrl+C stops the log tail; the server keeps running in the background until `bin/stop`.
 
 ## How It Works
 
