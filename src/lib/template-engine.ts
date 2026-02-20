@@ -1,14 +1,3 @@
-/**
- * Replaces fixture placeholders with dynamic values.
- * Ports the logic from FixtureApiClient#transform_fixture_placeholders.
- *
- * Supported placeholders:
- *   FIXTURE_ZOOM_USER_ID       → replaced with configured userId
- *   FIXTURE_USER_NAME          → replaced with configured userName
- *   FIXTURE_DATE_DAY_N_TIME_H  → N days ago at hour H, UTC ISO8601
- *   FIXTURE_DATE_DAY_N         → N days ago as YYYY-MM-DD
- */
-
 export interface TemplateContext {
   userId?: string;
   userName?: string;

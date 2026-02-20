@@ -5,21 +5,10 @@ import fs from "node:fs";
 
 const errorRules: ErrorRule[] = [];
 
-/** Map of status codes to error fixture filenames */
-const ERROR_FIXTURES: Record<number, string> = {
-  401: "401.json",
-  403: "403.json",
-  404: "404.json",
-  429: "429.json",
-};
-
 function loadErrorFixture(statusCode: number, fixturesDir: string): object {
-  const filename = ERROR_FIXTURES[statusCode];
-  if (filename) {
-    const filePath = path.join(fixturesDir, filename);
-    if (fs.existsSync(filePath)) {
-      return JSON.parse(fs.readFileSync(filePath, "utf-8"));
-    }
+  const filePath = path.join(fixturesDir, `${statusCode}.json`);
+  if (fs.existsSync(filePath)) {
+    return JSON.parse(fs.readFileSync(filePath, "utf-8"));
   }
   return { code: statusCode, message: `Simulated error ${statusCode}` };
 }

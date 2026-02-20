@@ -1,7 +1,7 @@
 FROM node:20-alpine
 WORKDIR /app
-COPY package.json yarn.lock* ./
-RUN yarn install
+COPY package.json package-lock.json ./
+RUN npm install
 COPY . .
 RUN yarn build
 EXPOSE 4010
