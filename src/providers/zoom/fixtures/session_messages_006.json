@@ -1,0 +1,34 @@
+{
+  "session_id": "sess_006",
+  "next_page_token": "",
+  "page_size": 50,
+  "sms_histories": [
+    {
+      "message_id": "msg_006_a",
+      "date_time": "FIXTURE_DATE_DAY_6_TIME_8",
+      "message": "Good morning Robert, just a reminder that your annual review is scheduled for this Thursday at 1pm.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15554445555", "display_name": "Robert Wilson" }
+      ]
+    },
+    {
+      "message_id": "msg_006_b",
+      "date_time": "FIXTURE_DATE_DAY_6_TIME_7",
+      "message": "Thank you! Should I bring any documents with me?",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15554445555",
+        "display_name": "Robert Wilson"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "session_id": "sess_003",
+  "next_page_token": "",
+  "page_size": 50,
+  "sms_histories": [
+    {
+      "message_id": "msg_003_a",
+      "date_time": "FIXTURE_DATE_DAY_3_TIME_18",
+      "message": "Hi Amanda, I wanted to touch base on the insurance policy renewal. The deadline is next Friday.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15553334444", "display_name": "Amanda Jones" }
+      ]
+    },
+    {
+      "message_id": "msg_003_b",
+      "date_time": "FIXTURE_DATE_DAY_3_TIME_17",
+      "message": "Thanks for the reminder! Can we go over the coverage options before I sign?",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15553334444",
+        "display_name": "Amanda Jones"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    }
+  ]
+}

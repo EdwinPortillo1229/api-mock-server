@@ -1,0 +1,48 @@
+{
+  "session_id": "sess_005",
+  "next_page_token": "",
+  "page_size": 50,
+  "sms_histories": [
+    {
+      "message_id": "msg_005_a",
+      "date_time": "FIXTURE_DATE_DAY_5_TIME_16",
+      "message": "Michael, your account transfer has been completed. You should see the funds within 2 business days.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15558889999", "display_name": "Michael Brown" }
+      ]
+    },
+    {
+      "message_id": "msg_005_b",
+      "date_time": "FIXTURE_DATE_DAY_5_TIME_15",
+      "message": "Great, I appreciate the quick turnaround. Will I get a confirmation email as well?",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15558889999",
+        "display_name": "Michael Brown"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_005_c",
+      "date_time": "FIXTURE_DATE_DAY_5_TIME_14",
+      "message": "Yes, you should receive it within the hour. Let me know if you don't see it.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15558889999", "display_name": "Michael Brown" }
+      ]
+    }
+  ]
+}
