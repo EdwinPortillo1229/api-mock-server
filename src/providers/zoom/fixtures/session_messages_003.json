@@ -5,7 +5,7 @@
   "sms_histories": [
     {
       "message_id": "msg_004_a",
-      "date_time": "FIXTURE_DATE_DAY_4_TIME_11",
+      "date_time": "FIXTURE_DATE_DAY_4_TIME_9",
       "message": "Hi everyone, the team meeting has been moved to 3pm tomorrow. Please confirm attendance.",
       "direction": "In",
       "sender": {
@@ -34,7 +34,7 @@
     },
     {
       "message_id": "msg_004_c",
-      "date_time": "FIXTURE_DATE_DAY_4_TIME_9",
+      "date_time": "FIXTURE_DATE_DAY_4_TIME_11",
       "message": "Confirmed. I have some updates on the compliance review to share.",
       "direction": "In",
       "sender": {

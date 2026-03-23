@@ -5,7 +5,7 @@
   "sms_histories": [
     {
       "message_id": "msg_001_a",
-      "date_time": "FIXTURE_DATE_DAY_1_TIME_14",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_11",
       "message": "Hi Jane, just following up on our meeting yesterday. Let me know if you have any questions about the portfolio.",
       "direction": "Out",
       "sender": {
@@ -19,7 +19,7 @@
     },
     {
       "message_id": "msg_001_b",
-      "date_time": "FIXTURE_DATE_DAY_1_TIME_13",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_12",
       "message": "Thanks for reaching out! I did have a question about the retirement account options.",
       "direction": "In",
       "sender": {
@@ -32,7 +32,7 @@
     },
     {
       "message_id": "msg_001_c",
-      "date_time": "FIXTURE_DATE_DAY_1_TIME_12",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_13",
       "message": "Of course! Would you like to schedule a call this week to discuss?",
       "direction": "Out",
       "sender": {
@@ -46,7 +46,7 @@
     },
     {
       "message_id": "msg_001_d",
-      "date_time": "FIXTURE_DATE_DAY_1_TIME_11",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_14",
       "message": "Thursday afternoon works best for me. Does 2pm work?",
       "direction": "In",
       "sender": {

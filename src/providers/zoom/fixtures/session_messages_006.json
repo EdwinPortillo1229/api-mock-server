@@ -5,7 +5,7 @@
   "sms_histories": [
     {
       "message_id": "msg_006_a",
-      "date_time": "FIXTURE_DATE_DAY_6_TIME_8",
+      "date_time": "FIXTURE_DATE_DAY_6_TIME_7",
       "message": "Good morning Robert, just a reminder that your annual review is scheduled for this Thursday at 1pm.",
       "direction": "Out",
       "sender": {
@@ -19,7 +19,7 @@
     },
     {
       "message_id": "msg_006_b",
-      "date_time": "FIXTURE_DATE_DAY_6_TIME_7",
+      "date_time": "FIXTURE_DATE_DAY_6_TIME_8",
       "message": "Thank you! Should I bring any documents with me?",
       "direction": "In",
       "sender": {

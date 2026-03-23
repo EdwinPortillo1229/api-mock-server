@@ -5,7 +5,7 @@
   "sms_histories": [
     {
       "message_id": "msg_005_a",
-      "date_time": "FIXTURE_DATE_DAY_5_TIME_16",
+      "date_time": "FIXTURE_DATE_DAY_5_TIME_14",
       "message": "Michael, your account transfer has been completed. You should see the funds within 2 business days.",
       "direction": "Out",
       "sender": {
@@ -32,7 +32,7 @@
     },
     {
       "message_id": "msg_005_c",
-      "date_time": "FIXTURE_DATE_DAY_5_TIME_14",
+      "date_time": "FIXTURE_DATE_DAY_5_TIME_16",
       "message": "Yes, you should receive it within the hour. Let me know if you don't see it.",
       "direction": "Out",
       "sender": {

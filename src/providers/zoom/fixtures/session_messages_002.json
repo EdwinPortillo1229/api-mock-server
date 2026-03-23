@@ -5,7 +5,7 @@
   "sms_histories": [
     {
       "message_id": "msg_002_a",
-      "date_time": "FIXTURE_DATE_DAY_2_TIME_9",
+      "date_time": "FIXTURE_DATE_DAY_2_TIME_7",
       "message": "Good morning! I wanted to confirm our appointment for next Monday at 10am.",
       "direction": "In",
       "sender": {
@@ -32,7 +32,7 @@
     },
     {
       "message_id": "msg_002_c",
-      "date_time": "FIXTURE_DATE_DAY_2_TIME_7",
+      "date_time": "FIXTURE_DATE_DAY_2_TIME_9",
       "message": "Perfect, thank you. Looking forward to reviewing the quarterly report.",
       "direction": "In",
       "sender": {

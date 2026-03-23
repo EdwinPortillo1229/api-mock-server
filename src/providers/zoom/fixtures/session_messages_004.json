@@ -5,7 +5,7 @@
   "sms_histories": [
     {
       "message_id": "msg_003_a",
-      "date_time": "FIXTURE_DATE_DAY_3_TIME_18",
+      "date_time": "FIXTURE_DATE_DAY_3_TIME_17",
       "message": "Hi Amanda, I wanted to touch base on the insurance policy renewal. The deadline is next Friday.",
       "direction": "Out",
       "sender": {
@@ -19,7 +19,7 @@
     },
     {
       "message_id": "msg_003_b",
-      "date_time": "FIXTURE_DATE_DAY_3_TIME_17",
+      "date_time": "FIXTURE_DATE_DAY_3_TIME_18",
       "message": "Thanks for the reminder! Can we go over the coverage options before I sign?",
       "direction": "In",
       "sender": {
