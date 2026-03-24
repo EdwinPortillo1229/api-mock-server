@@ -5,7 +5,7 @@
   "sms_histories": [
     {
       "message_id": "msg_005_a",
-      "date_time": "FIXTURE_DATE_DAY_5_TIME_14",
+      "date_time": "FIXTURE_DATE_DAY_5_TIME_9_5",
       "message": "Michael, your account transfer has been completed. You should see the funds within 2 business days.",
       "direction": "Out",
       "sender": {
@@ -19,7 +19,7 @@
     },
     {
       "message_id": "msg_005_b",
-      "date_time": "FIXTURE_DATE_DAY_5_TIME_15",
+      "date_time": "FIXTURE_DATE_DAY_5_TIME_9_12",
       "message": "Great, I appreciate the quick turnaround. Will I get a confirmation email as well?",
       "direction": "In",
       "sender": {
@@ -32,8 +32,251 @@
     },
     {
       "message_id": "msg_005_c",
-      "date_time": "FIXTURE_DATE_DAY_5_TIME_16",
+      "date_time": "FIXTURE_DATE_DAY_5_TIME_9_18",
       "message": "Yes, you should receive it within the hour. Let me know if you don't see it.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15558889999", "display_name": "Michael Brown" }
+      ]
+    },
+    {
+      "message_id": "msg_005_d",
+      "date_time": "FIXTURE_DATE_DAY_5_TIME_9_25",
+      "message": "Got it, thanks. While I have you - I've been meaning to ask about rebalancing my portfolio. It's been a while.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15558889999",
+        "display_name": "Michael Brown"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_005_e",
+      "date_time": "FIXTURE_DATE_DAY_5_TIME_9_33",
+      "message": "Good timing actually. Your last rebalance was 8 months ago. With the market rally, your equity allocation has drifted from 70% to about 78%.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15558889999", "display_name": "Michael Brown" }
+      ]
+    },
+    {
+      "message_id": "msg_005_f",
+      "date_time": "FIXTURE_DATE_DAY_5_TIME_9_40",
+      "message": "That's more aggressive than I'd like. Should we trim back to the 70/30 target?",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15558889999",
+        "display_name": "Michael Brown"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_005_g",
+      "date_time": "FIXTURE_DATE_DAY_5_TIME_9_48",
+      "message": "I'd recommend it. We'd sell some of the equity gains and move them into bonds. It also locks in some of those profits.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15558889999", "display_name": "Michael Brown" }
+      ]
+    },
+    {
+      "message_id": "msg_005_h",
+      "date_time": "FIXTURE_DATE_DAY_5_TIME_9_55",
+      "message": "Will there be tax implications from selling?",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15558889999",
+        "display_name": "Michael Brown"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_005_i",
+      "date_time": "FIXTURE_DATE_DAY_5_TIME_10_3",
+      "message": "Yes, some of those positions have long-term gains. But the tax hit is relatively small compared to the risk reduction. I can run the numbers for you.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15558889999", "display_name": "Michael Brown" }
+      ]
+    },
+    {
+      "message_id": "msg_005_j",
+      "date_time": "FIXTURE_DATE_DAY_5_TIME_10_11",
+      "message": "Please do. Can we also look at the IRA? I think that one might be off-target too.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15558889999",
+        "display_name": "Michael Brown"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_005_k",
+      "date_time": "FIXTURE_DATE_DAY_5_TIME_10_19",
+      "message": "The IRA is actually fine since it rebalances automatically in the target-date fund. It's the taxable account that needs attention.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15558889999", "display_name": "Michael Brown" }
+      ]
+    },
+    {
+      "message_id": "msg_005_l",
+      "date_time": "FIXTURE_DATE_DAY_5_TIME_10_27",
+      "message": "Oh right, I forgot we set that up as a target-date. That's convenient.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15558889999",
+        "display_name": "Michael Brown"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_005_m",
+      "date_time": "FIXTURE_DATE_DAY_5_TIME_10_34",
+      "message": "Exactly, one less thing to worry about. For the taxable account, I'll prepare a rebalancing proposal with the estimated tax impact. Should have it to you by tomorrow.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15558889999", "display_name": "Michael Brown" }
+      ]
+    },
+    {
+      "message_id": "msg_005_n",
+      "date_time": "FIXTURE_DATE_DAY_5_TIME_10_42",
+      "message": "Sounds good. Also, random question - my company is offering RSUs as part of my new comp package. Any advice on how to handle those?",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15558889999",
+        "display_name": "Michael Brown"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_005_o",
+      "date_time": "FIXTURE_DATE_DAY_5_TIME_10_50",
+      "message": "Congrats on the new package! General rule of thumb is to sell RSUs as they vest and diversify. Holding too much company stock concentrates your risk since your income already depends on that company.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15558889999", "display_name": "Michael Brown" }
+      ]
+    },
+    {
+      "message_id": "msg_005_p",
+      "date_time": "FIXTURE_DATE_DAY_5_TIME_10_58",
+      "message": "That makes sense. I hadn't thought about the double exposure risk. When do they start vesting?",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15558889999",
+        "display_name": "Michael Brown"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_005_q",
+      "date_time": "FIXTURE_DATE_DAY_5_TIME_11_6",
+      "message": "When you get the details, send them over and I'll build an RSU strategy into your overall plan. We'll want to coordinate with tax planning too.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15558889999", "display_name": "Michael Brown" }
+      ]
+    },
+    {
+      "message_id": "msg_005_r",
+      "date_time": "FIXTURE_DATE_DAY_5_TIME_11_14",
+      "message": "Will do. I should have the offer letter finalized this week. I'll forward the equity section to you.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15558889999",
+        "display_name": "Michael Brown"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_005_s",
+      "date_time": "FIXTURE_DATE_DAY_5_TIME_11_21",
+      "message": "Perfect. So to summarize, I'll send you the rebalancing proposal tomorrow, and we'll tackle the RSU planning once you have the details.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15558889999", "display_name": "Michael Brown" }
+      ]
+    },
+    {
+      "message_id": "msg_005_t",
+      "date_time": "FIXTURE_DATE_DAY_5_TIME_11_28",
+      "message": "Sounds like a plan. Thanks for always being so on top of things!",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15558889999",
+        "display_name": "Michael Brown"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_005_u",
+      "date_time": "FIXTURE_DATE_DAY_5_TIME_11_34",
+      "message": "Happy to help, Michael. Talk soon!",
       "direction": "Out",
       "sender": {
         "phone_number": "+11111111111",

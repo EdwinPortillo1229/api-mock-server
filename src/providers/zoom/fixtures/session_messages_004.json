@@ -1,12 +1,26 @@
 {
-  "session_id": "sess_003",
+  "session_id": "sess_004",
   "next_page_token": "",
   "page_size": 50,
   "sms_histories": [
     {
-      "message_id": "msg_003_a",
-      "date_time": "FIXTURE_DATE_DAY_3_TIME_17",
-      "message": "Hi Amanda, I wanted to touch base on the insurance policy renewal. The deadline is next Friday.",
+      "message_id": "msg_004_a",
+      "date_time": "FIXTURE_DATE_DAY_4_TIME_9_0",
+      "message": "Hi everyone, the team meeting has been moved to 3pm tomorrow. Please confirm attendance.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15551112222",
+        "display_name": "Sarah Miller"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" },
+        { "phone_number": "+15556667777", "display_name": "Emily Davis" }
+      ]
+    },
+    {
+      "message_id": "msg_004_b",
+      "date_time": "FIXTURE_DATE_DAY_4_TIME_9_4",
+      "message": "I can make it. I'll bring the updated client list.",
       "direction": "Out",
       "sender": {
         "phone_number": "+11111111111",
@@ -14,20 +28,296 @@
         "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
       },
       "to_members": [
-        { "phone_number": "+15553334444", "display_name": "Amanda Jones" }
+        { "phone_number": "+15551112222", "display_name": "Sarah Miller" },
+        { "phone_number": "+15556667777", "display_name": "Emily Davis" }
       ]
     },
     {
-      "message_id": "msg_003_b",
-      "date_time": "FIXTURE_DATE_DAY_3_TIME_18",
-      "message": "Thanks for the reminder! Can we go over the coverage options before I sign?",
+      "message_id": "msg_004_c",
+      "date_time": "FIXTURE_DATE_DAY_4_TIME_9_11",
+      "message": "Confirmed. I have some updates on the compliance review to share.",
       "direction": "In",
       "sender": {
-        "phone_number": "+15553334444",
-        "display_name": "Amanda Jones"
+        "phone_number": "+15556667777",
+        "display_name": "Emily Davis"
       },
       "to_members": [
-        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" },
+        { "phone_number": "+15551112222", "display_name": "Sarah Miller" }
+      ]
+    },
+    {
+      "message_id": "msg_004_d",
+      "date_time": "FIXTURE_DATE_DAY_4_TIME_9_17",
+      "message": "Great, we're all set then. Also, did either of you finish the Q1 client outreach report?",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15551112222",
+        "display_name": "Sarah Miller"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" },
+        { "phone_number": "+15556667777", "display_name": "Emily Davis" }
+      ]
+    },
+    {
+      "message_id": "msg_004_e",
+      "date_time": "FIXTURE_DATE_DAY_4_TIME_9_23",
+      "message": "I finished my section last night. Just need Emily's compliance notes and we're done.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15551112222", "display_name": "Sarah Miller" },
+        { "phone_number": "+15556667777", "display_name": "Emily Davis" }
+      ]
+    },
+    {
+      "message_id": "msg_004_f",
+      "date_time": "FIXTURE_DATE_DAY_4_TIME_9_30",
+      "message": "I'll have it done by noon. Had to wait on the updated regulatory guidelines that came out yesterday.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15556667777",
+        "display_name": "Emily Davis"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" },
+        { "phone_number": "+15551112222", "display_name": "Sarah Miller" }
+      ]
+    },
+    {
+      "message_id": "msg_004_g",
+      "date_time": "FIXTURE_DATE_DAY_4_TIME_9_37",
+      "message": "No rush, noon works. Sarah, are there any new client onboardings we should discuss tomorrow?",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15551112222", "display_name": "Sarah Miller" },
+        { "phone_number": "+15556667777", "display_name": "Emily Davis" }
+      ]
+    },
+    {
+      "message_id": "msg_004_h",
+      "date_time": "FIXTURE_DATE_DAY_4_TIME_9_44",
+      "message": "Yes, we have three new prospects from the seminar last week. I'll add them to the agenda.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15551112222",
+        "display_name": "Sarah Miller"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" },
+        { "phone_number": "+15556667777", "display_name": "Emily Davis" }
+      ]
+    },
+    {
+      "message_id": "msg_004_i",
+      "date_time": "FIXTURE_DATE_DAY_4_TIME_9_51",
+      "message": "Nice! What's their profile? Retirement planning or wealth management?",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15551112222", "display_name": "Sarah Miller" },
+        { "phone_number": "+15556667777", "display_name": "Emily Davis" }
+      ]
+    },
+    {
+      "message_id": "msg_004_j",
+      "date_time": "FIXTURE_DATE_DAY_4_TIME_9_58",
+      "message": "Two are pre-retirees looking at retirement income planning. The third is a small business owner interested in a SEP IRA.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15551112222",
+        "display_name": "Sarah Miller"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" },
+        { "phone_number": "+15556667777", "display_name": "Emily Davis" }
+      ]
+    },
+    {
+      "message_id": "msg_004_k",
+      "date_time": "FIXTURE_DATE_DAY_4_TIME_10_6",
+      "message": "Emily, the SEP IRA client will need the new compliance checklist. Can you have that ready?",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15551112222", "display_name": "Sarah Miller" },
+        { "phone_number": "+15556667777", "display_name": "Emily Davis" }
+      ]
+    },
+    {
+      "message_id": "msg_004_l",
+      "date_time": "FIXTURE_DATE_DAY_4_TIME_10_14",
+      "message": "Already on it. The new DOL rules changed a few things for small business retirement plans. I'll prep a summary.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15556667777",
+        "display_name": "Emily Davis"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" },
+        { "phone_number": "+15551112222", "display_name": "Sarah Miller" }
+      ]
+    },
+    {
+      "message_id": "msg_004_m",
+      "date_time": "FIXTURE_DATE_DAY_4_TIME_10_22",
+      "message": "Perfect. Also heads up - I got an email from corporate about the new CRM rollout. Training starts next month.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15551112222",
+        "display_name": "Sarah Miller"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" },
+        { "phone_number": "+15556667777", "display_name": "Emily Davis" }
+      ]
+    },
+    {
+      "message_id": "msg_004_n",
+      "date_time": "FIXTURE_DATE_DAY_4_TIME_10_30",
+      "message": "I saw that too. Hopefully it's better than the current system. The reporting is painful.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15551112222", "display_name": "Sarah Miller" },
+        { "phone_number": "+15556667777", "display_name": "Emily Davis" }
+      ]
+    },
+    {
+      "message_id": "msg_004_o",
+      "date_time": "FIXTURE_DATE_DAY_4_TIME_10_37",
+      "message": "Agreed. I'll add it to the agenda so we can discuss as a team. We should coordinate who goes to which training session.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15556667777",
+        "display_name": "Emily Davis"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" },
+        { "phone_number": "+15551112222", "display_name": "Sarah Miller" }
+      ]
+    },
+    {
+      "message_id": "msg_004_p",
+      "date_time": "FIXTURE_DATE_DAY_4_TIME_10_44",
+      "message": "Good idea. Let's make sure we don't all go the same week so someone is always covering client calls.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15551112222", "display_name": "Sarah Miller" },
+        { "phone_number": "+15556667777", "display_name": "Emily Davis" }
+      ]
+    },
+    {
+      "message_id": "msg_004_q",
+      "date_time": "FIXTURE_DATE_DAY_4_TIME_10_51",
+      "message": "Smart. I'll pull the available training dates and we can pick tomorrow.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15551112222",
+        "display_name": "Sarah Miller"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" },
+        { "phone_number": "+15556667777", "display_name": "Emily Davis" }
+      ]
+    },
+    {
+      "message_id": "msg_004_r",
+      "date_time": "FIXTURE_DATE_DAY_4_TIME_10_58",
+      "message": "One more thing - the Henderson account review is due this week. I can handle it if you two are swamped.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15556667777",
+        "display_name": "Emily Davis"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" },
+        { "phone_number": "+15551112222", "display_name": "Sarah Miller" }
+      ]
+    },
+    {
+      "message_id": "msg_004_s",
+      "date_time": "FIXTURE_DATE_DAY_4_TIME_11_5",
+      "message": "That would be a huge help, thank you Emily. I've been buried with the new prospect follow-ups.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15551112222", "display_name": "Sarah Miller" },
+        { "phone_number": "+15556667777", "display_name": "Emily Davis" }
+      ]
+    },
+    {
+      "message_id": "msg_004_t",
+      "date_time": "FIXTURE_DATE_DAY_4_TIME_11_12",
+      "message": "No problem. I'll have the Henderson review done by Thursday. See you both at 3pm tomorrow!",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15556667777",
+        "display_name": "Emily Davis"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" },
+        { "phone_number": "+15551112222", "display_name": "Sarah Miller" }
+      ]
+    },
+    {
+      "message_id": "msg_004_u",
+      "date_time": "FIXTURE_DATE_DAY_4_TIME_11_18",
+      "message": "See you tomorrow! I'll send the agenda out by end of day.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15551112222",
+        "display_name": "Sarah Miller"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" },
+        { "phone_number": "+15556667777", "display_name": "Emily Davis" }
+      ]
+    },
+    {
+      "message_id": "msg_004_v",
+      "date_time": "FIXTURE_DATE_DAY_4_TIME_11_24",
+      "message": "Sounds great. Thanks team!",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15551112222", "display_name": "Sarah Miller" },
+        { "phone_number": "+15556667777", "display_name": "Emily Davis" }
       ]
     }
   ]

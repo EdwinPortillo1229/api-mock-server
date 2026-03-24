@@ -5,7 +5,7 @@
   "sms_histories": [
     {
       "message_id": "msg_006_a",
-      "date_time": "FIXTURE_DATE_DAY_6_TIME_7",
+      "date_time": "FIXTURE_DATE_DAY_6_TIME_7_3",
       "message": "Good morning Robert, just a reminder that your annual review is scheduled for this Thursday at 1pm.",
       "direction": "Out",
       "sender": {
@@ -19,7 +19,7 @@
     },
     {
       "message_id": "msg_006_b",
-      "date_time": "FIXTURE_DATE_DAY_6_TIME_8",
+      "date_time": "FIXTURE_DATE_DAY_6_TIME_7_10",
       "message": "Thank you! Should I bring any documents with me?",
       "direction": "In",
       "sender": {
@@ -28,6 +28,263 @@
       },
       "to_members": [
         { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_006_c",
+      "date_time": "FIXTURE_DATE_DAY_6_TIME_7_17",
+      "message": "If you have your most recent pay stub and last year's tax return, that would be helpful. I'll have all the account statements ready on my end.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15554445555", "display_name": "Robert Wilson" }
+      ]
+    },
+    {
+      "message_id": "msg_006_d",
+      "date_time": "FIXTURE_DATE_DAY_6_TIME_7_25",
+      "message": "I can do that. Actually, a lot has changed since our last review. We had our second child in January.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15554445555",
+        "display_name": "Robert Wilson"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_006_e",
+      "date_time": "FIXTURE_DATE_DAY_6_TIME_7_33",
+      "message": "Congratulations! That's wonderful news. We'll definitely want to update your financial plan to account for the new addition.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15554445555", "display_name": "Robert Wilson" }
+      ]
+    },
+    {
+      "message_id": "msg_006_f",
+      "date_time": "FIXTURE_DATE_DAY_6_TIME_7_41",
+      "message": "Yeah, that's partly why I wanted to do this review. Our expenses have gone up and I want to make sure we're still on track.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15554445555",
+        "display_name": "Robert Wilson"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_006_g",
+      "date_time": "FIXTURE_DATE_DAY_6_TIME_7_49",
+      "message": "That's exactly what the annual review is for. We'll look at your budget, savings rate, insurance needs, and beneficiary designations. All of those likely need updates.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15554445555", "display_name": "Robert Wilson" }
+      ]
+    },
+    {
+      "message_id": "msg_006_h",
+      "date_time": "FIXTURE_DATE_DAY_6_TIME_7_57",
+      "message": "Good point on the beneficiaries. I haven't updated those since our first child was born. Need to add the new baby.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15554445555",
+        "display_name": "Robert Wilson"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_006_i",
+      "date_time": "FIXTURE_DATE_DAY_6_TIME_8_5",
+      "message": "I'll have the beneficiary change forms ready for you to sign on Thursday. We should update the life insurance, 401k, and IRA designations.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15554445555", "display_name": "Robert Wilson" }
+      ]
+    },
+    {
+      "message_id": "msg_006_j",
+      "date_time": "FIXTURE_DATE_DAY_6_TIME_8_13",
+      "message": "Speaking of life insurance, should I increase my coverage? With two kids now I'm a bit worried it's not enough.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15554445555",
+        "display_name": "Robert Wilson"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_006_k",
+      "date_time": "FIXTURE_DATE_DAY_6_TIME_8_21",
+      "message": "You're currently at $500k which was right for one child. With two kids, I'd recommend at least $750k, ideally $1M. The rule of thumb is 10-12x your income.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15554445555", "display_name": "Robert Wilson" }
+      ]
+    },
+    {
+      "message_id": "msg_006_l",
+      "date_time": "FIXTURE_DATE_DAY_6_TIME_8_29",
+      "message": "Let's go with $1M to be safe. My wife also wanted me to ask about starting college savings for both kids.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15554445555",
+        "display_name": "Robert Wilson"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_006_m",
+      "date_time": "FIXTURE_DATE_DAY_6_TIME_8_37",
+      "message": "529 plans are the way to go. We can open one for each child. With your oldest being 3, you've got a great head start. Even the newborn account will have 18 years to grow.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15554445555", "display_name": "Robert Wilson" }
+      ]
+    },
+    {
+      "message_id": "msg_006_n",
+      "date_time": "FIXTURE_DATE_DAY_6_TIME_8_44",
+      "message": "What kind of monthly contribution would make sense? We don't want to overextend with the higher expenses.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15554445555",
+        "display_name": "Robert Wilson"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_006_o",
+      "date_time": "FIXTURE_DATE_DAY_6_TIME_8_52",
+      "message": "We'll work through the numbers on Thursday. Even $100-200/month per child adds up significantly over 15+ years. The important thing is to start, even if it's a small amount.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15554445555", "display_name": "Robert Wilson" }
+      ]
+    },
+    {
+      "message_id": "msg_006_p",
+      "date_time": "FIXTURE_DATE_DAY_6_TIME_9_1",
+      "message": "That's reassuring. One more thing - we're thinking about updating our wills and estate documents. Do you have an attorney you recommend?",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15554445555",
+        "display_name": "Robert Wilson"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_006_q",
+      "date_time": "FIXTURE_DATE_DAY_6_TIME_9_9",
+      "message": "Absolutely, updating your estate plan with two children is critical. I work with a great estate attorney, Jennifer Park. I'll send you her contact info.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15554445555", "display_name": "Robert Wilson" }
+      ]
+    },
+    {
+      "message_id": "msg_006_r",
+      "date_time": "FIXTURE_DATE_DAY_6_TIME_9_16",
+      "message": "That would be great. We definitely need to set up guardianship designations.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15554445555",
+        "display_name": "Robert Wilson"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_006_s",
+      "date_time": "FIXTURE_DATE_DAY_6_TIME_9_24",
+      "message": "Yes, guardianship is so important with young kids. Jennifer can handle all of that. I'll coordinate with her so your financial plan and estate plan are aligned.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15554445555", "display_name": "Robert Wilson" }
+      ]
+    },
+    {
+      "message_id": "msg_006_t",
+      "date_time": "FIXTURE_DATE_DAY_6_TIME_9_31",
+      "message": "You're the best. Sounds like we have a lot to cover on Thursday! See you at 1pm.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15554445555",
+        "display_name": "Robert Wilson"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_006_u",
+      "date_time": "FIXTURE_DATE_DAY_6_TIME_9_38",
+      "message": "We do! I'll have everything prepped and organized. See you Thursday, Robert. Give my best to the family!",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15554445555", "display_name": "Robert Wilson" }
       ]
     }
   ]

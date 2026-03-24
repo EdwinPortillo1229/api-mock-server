@@ -15,6 +15,17 @@ export function applyTemplate(json: string, context: TemplateContext = {}): stri
   result = result.replaceAll("FIXTURE_ZOOM_USER_ID", userId);
   result = result.replaceAll("FIXTURE_USER_NAME", userName);
 
+  // FIXTURE_DATE_DAY_N_TIME_H_M → N days ago at hour H, minute M (must be matched before H-only pattern)
+  result = result.replace(/FIXTURE_DATE_DAY_(\d+)_TIME_(\d+)_(\d+)/g, (_match, daysStr, hourStr, minStr) => {
+    const days = parseInt(daysStr, 10);
+    const hour = parseInt(hourStr, 10);
+    const minute = parseInt(minStr, 10);
+    const date = new Date();
+    date.setUTCDate(date.getUTCDate() - days);
+    date.setUTCHours(hour, minute, 0, 0);
+    return date.toISOString();
+  });
+
   // FIXTURE_DATE_DAY_N_TIME_H → N days ago at hour H (must be matched before the date-only pattern)
   result = result.replace(/FIXTURE_DATE_DAY_(\d+)_TIME_(\d+)/g, (_match, daysStr, hourStr) => {
     const days = parseInt(daysStr, 10);

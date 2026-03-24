@@ -5,7 +5,7 @@
   "sms_histories": [
     {
       "message_id": "msg_001_a",
-      "date_time": "FIXTURE_DATE_DAY_1_TIME_11",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_9_2",
       "message": "Hi Jane, just following up on our meeting yesterday. Let me know if you have any questions about the portfolio.",
       "direction": "Out",
       "sender": {
@@ -19,7 +19,7 @@
     },
     {
       "message_id": "msg_001_b",
-      "date_time": "FIXTURE_DATE_DAY_1_TIME_12",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_9_8",
       "message": "Thanks for reaching out! I did have a question about the retirement account options.",
       "direction": "In",
       "sender": {
@@ -32,8 +32,8 @@
     },
     {
       "message_id": "msg_001_c",
-      "date_time": "FIXTURE_DATE_DAY_1_TIME_13",
-      "message": "Of course! Would you like to schedule a call this week to discuss?",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_9_12",
+      "message": "Of course! What would you like to know?",
       "direction": "Out",
       "sender": {
         "phone_number": "+11111111111",
@@ -46,8 +46,278 @@
     },
     {
       "message_id": "msg_001_d",
-      "date_time": "FIXTURE_DATE_DAY_1_TIME_14",
-      "message": "Thursday afternoon works best for me. Does 2pm work?",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_9_18",
+      "message": "You mentioned a Roth IRA vs traditional IRA. What's the main difference in terms of tax benefits?",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15551234567",
+        "display_name": "Jane Smith"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_001_e",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_9_24",
+      "message": "Great question. With a traditional IRA, contributions are tax-deductible now but you pay taxes on withdrawals in retirement. With a Roth, you pay taxes now but withdrawals are tax-free.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15551234567", "display_name": "Jane Smith" }
+      ]
+    },
+    {
+      "message_id": "msg_001_f",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_9_31",
+      "message": "So if I expect to be in a higher tax bracket when I retire, the Roth makes more sense?",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15551234567",
+        "display_name": "Jane Smith"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_001_g",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_9_37",
+      "message": "Exactly. Given your current income trajectory and age, I'd actually recommend the Roth. You have plenty of time for the investments to grow tax-free.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15551234567", "display_name": "Jane Smith" }
+      ]
+    },
+    {
+      "message_id": "msg_001_h",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_9_44",
+      "message": "That makes sense. What's the contribution limit for this year?",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15551234567",
+        "display_name": "Jane Smith"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_001_i",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_9_50",
+      "message": "The 2026 limit is $7,000 if you're under 50, $8,000 if you're 50 or older. Since you're 34, it's $7,000.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15551234567", "display_name": "Jane Smith" }
+      ]
+    },
+    {
+      "message_id": "msg_001_j",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_9_56",
+      "message": "Got it. And this is separate from my 401k through work, right?",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15551234567",
+        "display_name": "Jane Smith"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_001_k",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_10_3",
+      "message": "Yes, completely separate. You can contribute to both. I'd recommend maxing out your employer match on the 401k first, then putting the rest into the Roth.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15551234567", "display_name": "Jane Smith" }
+      ]
+    },
+    {
+      "message_id": "msg_001_l",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_10_11",
+      "message": "My employer matches up to 6%. I'm currently contributing 6% so that's covered.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15551234567",
+        "display_name": "Jane Smith"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_001_m",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_10_17",
+      "message": "Perfect, you're already doing that right. Let's set up the Roth IRA then. I can get the paperwork started today.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15551234567", "display_name": "Jane Smith" }
+      ]
+    },
+    {
+      "message_id": "msg_001_n",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_10_25",
+      "message": "That would be great. What do you need from me?",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15551234567",
+        "display_name": "Jane Smith"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_001_o",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_10_32",
+      "message": "I'll email you the application form. Just need your SSN, bank account info for funding, and your beneficiary designation.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15551234567", "display_name": "Jane Smith" }
+      ]
+    },
+    {
+      "message_id": "msg_001_p",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_10_40",
+      "message": "Ok I'll watch for the email. Should I do a lump sum or set up monthly contributions?",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15551234567",
+        "display_name": "Jane Smith"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_001_q",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_10_48",
+      "message": "I'd recommend dollar-cost averaging with monthly contributions. $583/month gets you to the $7,000 max. It reduces risk from market timing.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15551234567", "display_name": "Jane Smith" }
+      ]
+    },
+    {
+      "message_id": "msg_001_r",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_10_55",
+      "message": "That works for my budget. What funds would you recommend for the Roth?",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15551234567",
+        "display_name": "Jane Smith"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_001_s",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_11_4",
+      "message": "Given your timeline and risk tolerance, I'd suggest a target-date 2060 fund or a mix of 80% broad market index and 20% international index. We can go over the specifics on our call.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15551234567", "display_name": "Jane Smith" }
+      ]
+    },
+    {
+      "message_id": "msg_001_t",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_11_12",
+      "message": "Let's do a call to finalize everything. Would Thursday afternoon work?",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15551234567",
+        "display_name": "Jane Smith"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_001_u",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_11_18",
+      "message": "Thursday works great. Does 2pm work for you?",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15551234567", "display_name": "Jane Smith" }
+      ]
+    },
+    {
+      "message_id": "msg_001_v",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_11_24",
+      "message": "2pm is perfect. I'll have the application filled out by then too.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15551234567",
+        "display_name": "Jane Smith"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_001_w",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_11_30",
+      "message": "Sounds good! I'll send you a calendar invite and the email with the forms shortly. Talk to you Thursday!",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15551234567", "display_name": "Jane Smith" }
+      ]
+    },
+    {
+      "message_id": "msg_001_x",
+      "date_time": "FIXTURE_DATE_DAY_1_TIME_11_35",
+      "message": "Thank you so much for explaining everything! Talk soon.",
       "direction": "In",
       "sender": {
         "phone_number": "+15551234567",

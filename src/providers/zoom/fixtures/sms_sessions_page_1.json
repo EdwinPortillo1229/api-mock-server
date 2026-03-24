@@ -7,7 +7,7 @@
     {
       "session_id": "sess_001",
       "session_type": "user",
-      "last_access_time": "FIXTURE_DATE_DAY_1_TIME_14",
+      "last_access_time": "FIXTURE_DATE_DAY_1_TIME_11_35",
       "participants": [
         {
           "phone_number": "+11111111111",
@@ -26,7 +26,7 @@
     {
       "session_id": "sess_002",
       "session_type": "user",
-      "last_access_time": "FIXTURE_DATE_DAY_2_TIME_9",
+      "last_access_time": "FIXTURE_DATE_DAY_2_TIME_9_47",
       "participants": [
         {
           "phone_number": "+11111111111",
@@ -45,7 +45,7 @@
     {
       "session_id": "sess_003",
       "session_type": "user",
-      "last_access_time": "FIXTURE_DATE_DAY_3_TIME_18",
+      "last_access_time": "FIXTURE_DATE_DAY_3_TIME_12_49",
       "participants": [
         {
           "phone_number": "+11111111111",
@@ -64,7 +64,7 @@
     {
       "session_id": "sess_004",
       "session_type": "user",
-      "last_access_time": "FIXTURE_DATE_DAY_4_TIME_11",
+      "last_access_time": "FIXTURE_DATE_DAY_4_TIME_11_24",
       "participants": [
         {
           "phone_number": "+11111111111",

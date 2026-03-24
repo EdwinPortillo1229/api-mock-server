@@ -1,26 +1,12 @@
 {
-  "session_id": "sess_004",
+  "session_id": "sess_003",
   "next_page_token": "",
   "page_size": 50,
   "sms_histories": [
     {
-      "message_id": "msg_004_a",
-      "date_time": "FIXTURE_DATE_DAY_4_TIME_9",
-      "message": "Hi everyone, the team meeting has been moved to 3pm tomorrow. Please confirm attendance.",
-      "direction": "In",
-      "sender": {
-        "phone_number": "+15551112222",
-        "display_name": "Sarah Miller"
-      },
-      "to_members": [
-        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" },
-        { "phone_number": "+15556667777", "display_name": "Emily Davis" }
-      ]
-    },
-    {
-      "message_id": "msg_004_b",
-      "date_time": "FIXTURE_DATE_DAY_4_TIME_10",
-      "message": "I can make it. I'll bring the updated client list.",
+      "message_id": "msg_003_a",
+      "date_time": "FIXTURE_DATE_DAY_3_TIME_10_5",
+      "message": "Hi Amanda, I wanted to touch base on the insurance policy renewal. The deadline is next Friday.",
       "direction": "Out",
       "sender": {
         "phone_number": "+11111111111",
@@ -28,22 +14,290 @@
         "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
       },
       "to_members": [
-        { "phone_number": "+15551112222", "display_name": "Sarah Miller" },
-        { "phone_number": "+15556667777", "display_name": "Emily Davis" }
+        { "phone_number": "+15553334444", "display_name": "Amanda Jones" }
       ]
     },
     {
-      "message_id": "msg_004_c",
-      "date_time": "FIXTURE_DATE_DAY_4_TIME_11",
-      "message": "Confirmed. I have some updates on the compliance review to share.",
+      "message_id": "msg_003_b",
+      "date_time": "FIXTURE_DATE_DAY_3_TIME_10_13",
+      "message": "Thanks for the reminder! Can we go over the coverage options before I sign?",
       "direction": "In",
       "sender": {
-        "phone_number": "+15556667777",
-        "display_name": "Emily Davis"
+        "phone_number": "+15553334444",
+        "display_name": "Amanda Jones"
       },
       "to_members": [
-        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" },
-        { "phone_number": "+15551112222", "display_name": "Sarah Miller" }
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_003_c",
+      "date_time": "FIXTURE_DATE_DAY_3_TIME_10_20",
+      "message": "Absolutely. Your current policy is $500k term life with a $150/month premium. The renewal quote came in at $162/month due to the age adjustment.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15553334444", "display_name": "Amanda Jones" }
+      ]
+    },
+    {
+      "message_id": "msg_003_d",
+      "date_time": "FIXTURE_DATE_DAY_3_TIME_10_28",
+      "message": "That's not too bad. Should I consider increasing the coverage amount? We just bought the new house.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15553334444",
+        "display_name": "Amanda Jones"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_003_e",
+      "date_time": "FIXTURE_DATE_DAY_3_TIME_10_36",
+      "message": "That's exactly what I was going to suggest. With the new mortgage, I'd recommend bumping up to $750k. Let me get you a quote for that.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15553334444", "display_name": "Amanda Jones" }
+      ]
+    },
+    {
+      "message_id": "msg_003_f",
+      "date_time": "FIXTURE_DATE_DAY_3_TIME_10_44",
+      "message": "Yes please. What about disability insurance? My friend mentioned I should look into that too.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15553334444",
+        "display_name": "Amanda Jones"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_003_g",
+      "date_time": "FIXTURE_DATE_DAY_3_TIME_10_52",
+      "message": "Your friend is right. Long-term disability is often overlooked. Does your employer offer any coverage?",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15553334444", "display_name": "Amanda Jones" }
+      ]
+    },
+    {
+      "message_id": "msg_003_h",
+      "date_time": "FIXTURE_DATE_DAY_3_TIME_11_1",
+      "message": "I think they cover 60% of my salary through a group plan. Is that enough?",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15553334444",
+        "display_name": "Amanda Jones"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_003_i",
+      "date_time": "FIXTURE_DATE_DAY_3_TIME_11_9",
+      "message": "60% is a good start, but keep in mind that employer-paid benefits are taxable when you receive them. So effectively you'd get closer to 40-45% of your take-home pay. A supplemental policy could fill that gap.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15553334444", "display_name": "Amanda Jones" }
+      ]
+    },
+    {
+      "message_id": "msg_003_j",
+      "date_time": "FIXTURE_DATE_DAY_3_TIME_11_18",
+      "message": "I had no idea about the tax part. How much would a supplemental policy cost?",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15553334444",
+        "display_name": "Amanda Jones"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_003_k",
+      "date_time": "FIXTURE_DATE_DAY_3_TIME_11_26",
+      "message": "For someone your age and occupation, probably around $45-65/month for an additional 20% income replacement. I'll get exact quotes from a couple carriers.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15553334444", "display_name": "Amanda Jones" }
+      ]
+    },
+    {
+      "message_id": "msg_003_l",
+      "date_time": "FIXTURE_DATE_DAY_3_TIME_11_35",
+      "message": "That's very reasonable. Let's do that. What about umbrella insurance? My neighbor mentioned it after someone slipped on their driveway.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15553334444",
+        "display_name": "Amanda Jones"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_003_m",
+      "date_time": "FIXTURE_DATE_DAY_3_TIME_11_43",
+      "message": "An umbrella policy is a great idea, especially as a homeowner. It provides liability coverage beyond what your home and auto policies cover. Usually $1M in coverage runs about $200-300/year.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15553334444", "display_name": "Amanda Jones" }
+      ]
+    },
+    {
+      "message_id": "msg_003_n",
+      "date_time": "FIXTURE_DATE_DAY_3_TIME_11_50",
+      "message": "Wow that's cheap for $1M of protection. Let's add that to the list.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15553334444",
+        "display_name": "Amanda Jones"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_003_o",
+      "date_time": "FIXTURE_DATE_DAY_3_TIME_11_57",
+      "message": "Will do. So to recap, I'm going to get quotes for: 1) $750k term life renewal, 2) supplemental disability, and 3) $1M umbrella policy.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15553334444", "display_name": "Amanda Jones" }
+      ]
+    },
+    {
+      "message_id": "msg_003_p",
+      "date_time": "FIXTURE_DATE_DAY_3_TIME_12_5",
+      "message": "That's perfect. How soon can you have those ready?",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15553334444",
+        "display_name": "Amanda Jones"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_003_q",
+      "date_time": "FIXTURE_DATE_DAY_3_TIME_12_12",
+      "message": "I should have everything by Wednesday. That gives us time to review before the Friday renewal deadline.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15553334444", "display_name": "Amanda Jones" }
+      ]
+    },
+    {
+      "message_id": "msg_003_r",
+      "date_time": "FIXTURE_DATE_DAY_3_TIME_12_20",
+      "message": "Great. Will you need any medical info from me for the increased life coverage?",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15553334444",
+        "display_name": "Amanda Jones"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_003_s",
+      "date_time": "FIXTURE_DATE_DAY_3_TIME_12_28",
+      "message": "Since you passed the medical exam last year and it's just a coverage increase with the same carrier, they may waive a new exam. I'll confirm with underwriting.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15553334444", "display_name": "Amanda Jones" }
+      ]
+    },
+    {
+      "message_id": "msg_003_t",
+      "date_time": "FIXTURE_DATE_DAY_3_TIME_12_35",
+      "message": "That would be great. I hate needles haha",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15553334444",
+        "display_name": "Amanda Jones"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_003_u",
+      "date_time": "FIXTURE_DATE_DAY_3_TIME_12_42",
+      "message": "Ha! I'll do my best to spare you. I'll text you Wednesday with the quotes. Enjoy your evening!",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15553334444", "display_name": "Amanda Jones" }
+      ]
+    },
+    {
+      "message_id": "msg_003_v",
+      "date_time": "FIXTURE_DATE_DAY_3_TIME_12_49",
+      "message": "Thank you for all your help! Talk Wednesday. Have a good night!",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15553334444",
+        "display_name": "Amanda Jones"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
       ]
     }
   ]

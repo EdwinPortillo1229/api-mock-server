@@ -5,7 +5,7 @@
   "sms_histories": [
     {
       "message_id": "msg_002_a",
-      "date_time": "FIXTURE_DATE_DAY_2_TIME_7",
+      "date_time": "FIXTURE_DATE_DAY_2_TIME_7_5",
       "message": "Good morning! I wanted to confirm our appointment for next Monday at 10am.",
       "direction": "In",
       "sender": {
@@ -18,7 +18,7 @@
     },
     {
       "message_id": "msg_002_b",
-      "date_time": "FIXTURE_DATE_DAY_2_TIME_8",
+      "date_time": "FIXTURE_DATE_DAY_2_TIME_7_12",
       "message": "Yes, Monday at 10am is confirmed. I'll send over the documents beforehand.",
       "direction": "Out",
       "sender": {
@@ -32,7 +32,7 @@
     },
     {
       "message_id": "msg_002_c",
-      "date_time": "FIXTURE_DATE_DAY_2_TIME_9",
+      "date_time": "FIXTURE_DATE_DAY_2_TIME_7_19",
       "message": "Perfect, thank you. Looking forward to reviewing the quarterly report.",
       "direction": "In",
       "sender": {
@@ -41,6 +41,263 @@
       },
       "to_members": [
         { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_002_d",
+      "date_time": "FIXTURE_DATE_DAY_2_TIME_7_28",
+      "message": "I've been putting together the report this morning. Your portfolio is up 8.2% year-to-date.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15559876543", "display_name": "Bill Jones" }
+      ]
+    },
+    {
+      "message_id": "msg_002_e",
+      "date_time": "FIXTURE_DATE_DAY_2_TIME_7_35",
+      "message": "That's great news! How does that compare to the benchmark?",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15559876543",
+        "display_name": "Bill Jones"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_002_f",
+      "date_time": "FIXTURE_DATE_DAY_2_TIME_7_43",
+      "message": "The S&P 500 is up about 7.1% in the same period, so you're outperforming by over a percent. The international allocation really helped.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15559876543", "display_name": "Bill Jones" }
+      ]
+    },
+    {
+      "message_id": "msg_002_g",
+      "date_time": "FIXTURE_DATE_DAY_2_TIME_7_51",
+      "message": "Glad we added that European exposure last quarter. What about the bond side?",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15559876543",
+        "display_name": "Bill Jones"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_002_h",
+      "date_time": "FIXTURE_DATE_DAY_2_TIME_7_58",
+      "message": "Bonds have been steady. The intermediate-term fund is yielding 4.3% and the short-term treasuries are at 4.8%. Exactly what we want for stability.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15559876543", "display_name": "Bill Jones" }
+      ]
+    },
+    {
+      "message_id": "msg_002_i",
+      "date_time": "FIXTURE_DATE_DAY_2_TIME_8_7",
+      "message": "Good. I've been thinking about increasing my monthly contribution. Is there a limit on what I can add to the taxable account?",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15559876543",
+        "display_name": "Bill Jones"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_002_j",
+      "date_time": "FIXTURE_DATE_DAY_2_TIME_8_14",
+      "message": "No limit on the taxable brokerage account. You can add as much as you'd like. How much were you thinking?",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15559876543", "display_name": "Bill Jones" }
+      ]
+    },
+    {
+      "message_id": "msg_002_k",
+      "date_time": "FIXTURE_DATE_DAY_2_TIME_8_22",
+      "message": "I'd like to bump it from $2,000/month to $3,500. We paid off the car last month so we have the extra cash flow.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15559876543",
+        "display_name": "Bill Jones"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_002_l",
+      "date_time": "FIXTURE_DATE_DAY_2_TIME_8_30",
+      "message": "That's a smart move. I'd suggest keeping the same allocation ratio for the additional contributions. Want me to update the auto-invest settings?",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15559876543", "display_name": "Bill Jones" }
+      ]
+    },
+    {
+      "message_id": "msg_002_m",
+      "date_time": "FIXTURE_DATE_DAY_2_TIME_8_38",
+      "message": "Yes please. Actually, should we also consider tax-loss harvesting before year end?",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15559876543",
+        "display_name": "Bill Jones"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_002_n",
+      "date_time": "FIXTURE_DATE_DAY_2_TIME_8_46",
+      "message": "Good thinking. I've already identified a couple of positions that have unrealized losses we could harvest. I'll include that in the report for Monday.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15559876543", "display_name": "Bill Jones" }
+      ]
+    },
+    {
+      "message_id": "msg_002_o",
+      "date_time": "FIXTURE_DATE_DAY_2_TIME_8_53",
+      "message": "One more thing - my wife was asking about opening a 529 for our daughter. She just turned 3.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15559876543",
+        "display_name": "Bill Jones"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_002_p",
+      "date_time": "FIXTURE_DATE_DAY_2_TIME_9_2",
+      "message": "Absolutely, a 529 is a great idea at her age. You get state tax deductions and the growth is tax-free for education expenses. I'll prepare some plan options for Monday too.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15559876543", "display_name": "Bill Jones" }
+      ]
+    },
+    {
+      "message_id": "msg_002_q",
+      "date_time": "FIXTURE_DATE_DAY_2_TIME_9_10",
+      "message": "That would be great. How much do people typically contribute to start?",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15559876543",
+        "display_name": "Bill Jones"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_002_r",
+      "date_time": "FIXTURE_DATE_DAY_2_TIME_9_18",
+      "message": "Most of my clients start with $200-500/month for a 529. With 15 years of growth, even $300/month could get you to around $80-90k depending on returns.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15559876543", "display_name": "Bill Jones" }
+      ]
+    },
+    {
+      "message_id": "msg_002_s",
+      "date_time": "FIXTURE_DATE_DAY_2_TIME_9_27",
+      "message": "That's really helpful. Let's discuss the details on Monday. I'll bring Karen along too if that's ok.",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15559876543",
+        "display_name": "Bill Jones"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_002_t",
+      "date_time": "FIXTURE_DATE_DAY_2_TIME_9_34",
+      "message": "Of course, Karen is welcome. I always recommend both spouses be involved in these decisions. I'll have everything prepared.",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15559876543", "display_name": "Bill Jones" }
+      ]
+    },
+    {
+      "message_id": "msg_002_u",
+      "date_time": "FIXTURE_DATE_DAY_2_TIME_9_41",
+      "message": "Wonderful. See you Monday at 10. Thanks for all the info today!",
+      "direction": "In",
+      "sender": {
+        "phone_number": "+15559876543",
+        "display_name": "Bill Jones"
+      },
+      "to_members": [
+        { "phone_number": "+11111111111", "display_name": "FIXTURE_USER_NAME" }
+      ]
+    },
+    {
+      "message_id": "msg_002_v",
+      "date_time": "FIXTURE_DATE_DAY_2_TIME_9_47",
+      "message": "See you then, Bill. Have a great rest of your day!",
+      "direction": "Out",
+      "sender": {
+        "phone_number": "+11111111111",
+        "display_name": "FIXTURE_USER_NAME",
+        "owner": { "id": "FIXTURE_ZOOM_USER_ID", "type": "user" }
+      },
+      "to_members": [
+        { "phone_number": "+15559876543", "display_name": "Bill Jones" }
       ]
     }
   ]
